@@ -23,7 +23,7 @@ import ExprTools: splitdef, combinedef
 import REPL.REPLCompletions: emoji_symbols
 
 export serve, publish, cleanpull, newsite, optimize, fd2html, fd2text,
-       literate_folder, verify_links, @OUTPUT, get_url
+       literate_folder, verify_links, @OUTPUT, get_url, html_audit
 
 # Extra functions
 export lunr
@@ -225,6 +225,7 @@ include("manager/file_utils.jl")
 include("manager/franklin.jl")
 include("manager/extras.jl")
 include("manager/post_processing.jl")
+include("manager/html_audit.jl")
 
 if Base.VERSION >= v"1.4.2"
     include("precompile.jl")
