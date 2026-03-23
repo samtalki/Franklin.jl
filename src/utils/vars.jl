@@ -41,6 +41,7 @@ const GLOBAL_VARS_DEFAULT = [
     # RSS
     "generate_rss"        => dpair(false),
     "website_title"       => dpair(""),
+    "title_separator"     => dpair(" | "),
     "website_url"         => dpair(""),
     "website_description" => dpair(""),
     "rss_file"            => dpair("feed"),

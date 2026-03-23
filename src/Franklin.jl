@@ -210,6 +210,7 @@ include("converter/latex/hyperrefs.jl")
 include("converter/latex/io.jl")
 # > html
 include("converter/html/functions.jl")
+include("converter/html/seo.jl")
 include("converter/html/html.jl")
 include("converter/html/blocks.jl")
 include("converter/html/link_fixer.jl")
